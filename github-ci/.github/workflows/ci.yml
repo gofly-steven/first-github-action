@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
 
-    runs-on: macos-latest 
+    runs-on: ubuntu-latest
     
     steps:
     - uses: actions/checkout@v1
@@ -14,4 +14,4 @@ jobs:
     - name: Run a multi-line script
       run: |
         echo Add other actions to build,
-        echo test, and deploy your project.s
+        echo test, and deploy your project.
